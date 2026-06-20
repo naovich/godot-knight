@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://6xucxmi7eple"]
+
+[node name="world" type="Node3D" unique_id=111919496]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=796554784]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1333052613]
