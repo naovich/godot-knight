@@ -1,17 +1,11 @@
 extends CharacterBody2D
 
 ## Vitesse de déplacement horizontale max (pixels/seconde).
-@export var speed: float = 400.0
+@export var speed: float = 800.0
 
 ## Tant que c'est désactivé, le ninja ne se déplace pas : on règle juste les animations sur place.
 ## Passe-le à true (dans l'inspecteur) quand les animations seront prêtes.
 @export var movement_enabled: bool = false
-
-## Accélération du déplacement réel pendant l'élan (pixels/seconde²).
-@export var acceleration: float = 1000.0
-
-## Décélération du déplacement réel pendant le freinage (pixels/seconde²).
-@export var deceleration: float = 800.0
 
 # Noms des animations définies dans le SpriteFrames de l'AnimatedSprite2D.
 const ANIM_IDLE := "idle"
@@ -50,7 +44,7 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.flip_h = direction < 0.0
 
 	_update_state(pressing, delta)
-	_update_movement(pressing, delta)
+	_update_movement()
 
 
 # --- Machine à états ---
@@ -116,21 +110,29 @@ func _enter_transition(clip: String) -> void:
 
 
 # --- Déplacement réel (désactivé tant que movement_enabled est faux) ---
+# La vitesse suit la PROGRESSION de l'animation (pas un freinage indépendant) :
+# vitesse = speed × ratio, où ratio = 1 en pleine course et 0 à l'arrêt. Elle atteint
+# donc 0 pile quand l'animation atteint l'idle -> plus de patinage.
 
-func _update_movement(pressing: bool, delta: float) -> void:
+func _update_movement() -> void:
 	if not movement_enabled:
 		return
+	velocity.x = _facing * speed * _current_speed_ratio()
+	move_and_slide()
 
+
+## Vitesse normalisée : 0 = arrêt (idle), 1 = pleine course. Déduite de l'état et de la
+## progression dans le clip de transition.
+func _current_speed_ratio() -> float:
 	match _state:
 		State.COURSE:
-			velocity.x = _facing * speed
-		State.IDLE:
-			velocity.x = 0.0
+			return 1.0
 		State.TRANSITION:
-			# La vitesse réelle suit la touche : monte si on tient, retombe sinon.
-			if pressing:
-				velocity.x = move_toward(velocity.x, _facing * speed, acceleration * delta)
-			else:
-				velocity.x = move_toward(velocity.x, 0.0, deceleration * delta)
-
-	move_and_slide()
+			var last: float = animated_sprite.sprite_frames.get_frame_count(_clip) - 1
+			if last <= 0.0:
+				return 0.0
+			# idle_end = image "arrêt" du clip ; le ratio est la distance à cette image.
+			var idle_end: float = 0.0 if _clip == ANIM_ACCELERATION else last
+			return clampf(absf(_pos - idle_end) / last, 0.0, 1.0)
+		_:
+			return 0.0
