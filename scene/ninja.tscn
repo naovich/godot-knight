@@ -46,79 +46,45 @@
 [ext_resource type="Texture2D" uid="uid://c17twxfl8uqj" path="res://character/run ninja/ninja-1168.png" id="44_2n2t7"]
 [ext_resource type="Texture2D" uid="uid://i84fc8o8j6fb" path="res://character/run ninja/ninja-1169.png" id="45_747y1"]
 [ext_resource type="Texture2D" uid="uid://08nuxslltxkb" path="res://character/run ninja/ninja-1025.png" id="acc_1025"]
+[ext_resource type="Texture2D" uid="uid://byuss08h11sw6" path="res://character/run ninja/ninja-1029.png" id="acc_1029"]
+[ext_resource type="Texture2D" uid="uid://duxubisxxalyj" path="res://character/run ninja/ninja-1033.png" id="acc_1033"]
+[ext_resource type="Texture2D" uid="uid://smarkovm70wc" path="res://character/run ninja/ninja-1037.png" id="acc_1037"]
+[ext_resource type="Texture2D" uid="uid://didsaspr8ihm8" path="res://character/run ninja/ninja-1041.png" id="acc_1041"]
+[ext_resource type="Texture2D" uid="uid://bflwdtq74wt87" path="res://character/run ninja/ninja-1045.png" id="acc_1045"]
+[ext_resource type="Texture2D" uid="uid://b2ohkrhxre8kr" path="res://character/run ninja/ninja-1049.png" id="acc_1049"]
+[ext_resource type="Texture2D" uid="uid://dexqqq2fubtsc" path="res://character/run ninja/ninja-1053.png" id="acc_1053"]
+[ext_resource type="Texture2D" uid="uid://0uutmuhif1js" path="res://character/run ninja/ninja-1056.png" id="acc_1056"]
 [ext_resource type="Texture2D" uid="uid://cragyae1nxacr" path="res://character/run ninja/ninja-1026.png" id="acc_1026"]
 [ext_resource type="Texture2D" uid="uid://duhfctgwsjhrl" path="res://character/run ninja/ninja-1027.png" id="acc_1027"]
 [ext_resource type="Texture2D" uid="uid://dkbwas1docm8a" path="res://character/run ninja/ninja-1028.png" id="acc_1028"]
-[ext_resource type="Texture2D" uid="uid://byuss08h11sw6" path="res://character/run ninja/ninja-1029.png" id="acc_1029"]
 [ext_resource type="Texture2D" uid="uid://vfjrq8xvksie" path="res://character/run ninja/ninja-1030.png" id="acc_1030"]
 [ext_resource type="Texture2D" uid="uid://24xi5ju6r581" path="res://character/run ninja/ninja-1031.png" id="acc_1031"]
 [ext_resource type="Texture2D" uid="uid://bfgxdxdx2jqmb" path="res://character/run ninja/ninja-1032.png" id="acc_1032"]
-[ext_resource type="Texture2D" uid="uid://duxubisxxalyj" path="res://character/run ninja/ninja-1033.png" id="acc_1033"]
 [ext_resource type="Texture2D" uid="uid://xheypo3xtx7a" path="res://character/run ninja/ninja-1034.png" id="acc_1034"]
 [ext_resource type="Texture2D" uid="uid://0g38ik2njs2q" path="res://character/run ninja/ninja-1035.png" id="acc_1035"]
 [ext_resource type="Texture2D" uid="uid://tjcwom33x5x0" path="res://character/run ninja/ninja-1036.png" id="acc_1036"]
-[ext_resource type="Texture2D" uid="uid://smarkovm70wc" path="res://character/run ninja/ninja-1037.png" id="acc_1037"]
 [ext_resource type="Texture2D" uid="uid://c7m4e6wak8uvx" path="res://character/run ninja/ninja-1038.png" id="acc_1038"]
 [ext_resource type="Texture2D" uid="uid://dmk84rafg5guy" path="res://character/run ninja/ninja-1039.png" id="acc_1039"]
 [ext_resource type="Texture2D" uid="uid://6xnhtfehivk8" path="res://character/run ninja/ninja-1040.png" id="acc_1040"]
-[ext_resource type="Texture2D" uid="uid://didsaspr8ihm8" path="res://character/run ninja/ninja-1041.png" id="acc_1041"]
 [ext_resource type="Texture2D" uid="uid://crtdkufoajaky" path="res://character/run ninja/ninja-1042.png" id="acc_1042"]
 [ext_resource type="Texture2D" uid="uid://qknkp36miiqg" path="res://character/run ninja/ninja-1043.png" id="acc_1043"]
 [ext_resource type="Texture2D" uid="uid://b82bx0iv4ss7n" path="res://character/run ninja/ninja-1044.png" id="acc_1044"]
-[ext_resource type="Texture2D" uid="uid://bflwdtq74wt87" path="res://character/run ninja/ninja-1045.png" id="acc_1045"]
 [ext_resource type="Texture2D" uid="uid://c3nrgsg8c1ou8" path="res://character/run ninja/ninja-1046.png" id="acc_1046"]
 [ext_resource type="Texture2D" uid="uid://bqw4m3mvxpmuy" path="res://character/run ninja/ninja-1047.png" id="acc_1047"]
 [ext_resource type="Texture2D" uid="uid://dbp5fig3n8bok" path="res://character/run ninja/ninja-1048.png" id="acc_1048"]
-[ext_resource type="Texture2D" uid="uid://b2ohkrhxre8kr" path="res://character/run ninja/ninja-1049.png" id="acc_1049"]
 [ext_resource type="Texture2D" uid="uid://d223kawglyt31" path="res://character/run ninja/ninja-1050.png" id="acc_1050"]
 [ext_resource type="Texture2D" uid="uid://dbhfv0sw1ocbb" path="res://character/run ninja/ninja-1051.png" id="acc_1051"]
 [ext_resource type="Texture2D" uid="uid://ccf8jsj8qfgso" path="res://character/run ninja/ninja-1052.png" id="acc_1052"]
-[ext_resource type="Texture2D" uid="uid://dexqqq2fubtsc" path="res://character/run ninja/ninja-1053.png" id="acc_1053"]
 [ext_resource type="Texture2D" uid="uid://dsqlv0elmncs1" path="res://character/run ninja/ninja-1054.png" id="acc_1054"]
 [ext_resource type="Texture2D" uid="uid://kmckaqg1667t" path="res://character/run ninja/ninja-1055.png" id="acc_1055"]
-[ext_resource type="Texture2D" uid="uid://0uutmuhif1js" path="res://character/run ninja/ninja-1056.png" id="acc_1056"]
-[ext_resource type="Texture2D" uid="uid://bnrgc70k1r81s" path="res://character/run ninja/ninja-1100.png" id="dec_1100"]
-[ext_resource type="Texture2D" uid="uid://c1pchy01awfor" path="res://character/run ninja/ninja-1101.png" id="dec_1101"]
-[ext_resource type="Texture2D" uid="uid://dfnfilqb8gldv" path="res://character/run ninja/ninja-1102.png" id="dec_1102"]
-[ext_resource type="Texture2D" uid="uid://c0r1pb7wxhtrm" path="res://character/run ninja/ninja-1103.png" id="dec_1103"]
-[ext_resource type="Texture2D" uid="uid://era18hukkpwu" path="res://character/run ninja/ninja-1104.png" id="dec_1104"]
-[ext_resource type="Texture2D" uid="uid://giouo081h4bw" path="res://character/run ninja/ninja-1105.png" id="dec_1105"]
-[ext_resource type="Texture2D" uid="uid://ck6rmayhvhtux" path="res://character/run ninja/ninja-1106.png" id="dec_1106"]
-[ext_resource type="Texture2D" uid="uid://dt6ah2wrmyvjx" path="res://character/run ninja/ninja-1107.png" id="dec_1107"]
-[ext_resource type="Texture2D" uid="uid://dwoy3djry65lf" path="res://character/run ninja/ninja-1108.png" id="dec_1108"]
-[ext_resource type="Texture2D" uid="uid://53txqltravh" path="res://character/run ninja/ninja-1109.png" id="dec_1109"]
-[ext_resource type="Texture2D" uid="uid://c5u81mq6iofa5" path="res://character/run ninja/ninja-1110.png" id="dec_1110"]
-[ext_resource type="Texture2D" uid="uid://bo4110fwjctlp" path="res://character/run ninja/ninja-1111.png" id="dec_1111"]
-[ext_resource type="Texture2D" uid="uid://baqf0qpd7b050" path="res://character/run ninja/ninja-1112.png" id="dec_1112"]
-[ext_resource type="Texture2D" uid="uid://ddryub5s0tvhr" path="res://character/run ninja/ninja-1113.png" id="dec_1113"]
-[ext_resource type="Texture2D" uid="uid://d2kkgwkxkqld2" path="res://character/run ninja/ninja-1114.png" id="dec_1114"]
-[ext_resource type="Texture2D" uid="uid://jc38l5lvb06k" path="res://character/run ninja/ninja-1115.png" id="dec_1115"]
-[ext_resource type="Texture2D" uid="uid://47an08ufxgci" path="res://character/run ninja/ninja-1116.png" id="dec_1116"]
-[ext_resource type="Texture2D" uid="uid://b3xy35xuclceg" path="res://character/run ninja/ninja-1117.png" id="dec_1117"]
 [ext_resource type="Texture2D" uid="uid://bxkhl60xuy7hn" path="res://character/run ninja/ninja-1118.png" id="dec_1118"]
-[ext_resource type="Texture2D" uid="uid://dl15e1kksl16l" path="res://character/run ninja/ninja-1119.png" id="dec_1119"]
-[ext_resource type="Texture2D" uid="uid://cveb884ybwm6g" path="res://character/run ninja/ninja-1120.png" id="dec_1120"]
 [ext_resource type="Texture2D" uid="uid://65r0tnnjmyut" path="res://character/run ninja/ninja-1121.png" id="dec_1121"]
-[ext_resource type="Texture2D" uid="uid://bc1uw8bpoyiej" path="res://character/run ninja/ninja-1122.png" id="dec_1122"]
-[ext_resource type="Texture2D" uid="uid://c4mrfwmvfjrck" path="res://character/run ninja/ninja-1123.png" id="dec_1123"]
 [ext_resource type="Texture2D" uid="uid://stcx34646nkq" path="res://character/run ninja/ninja-1124.png" id="dec_1124"]
-[ext_resource type="Texture2D" uid="uid://dkrltgy7m23j2" path="res://character/run ninja/ninja-1125.png" id="dec_1125"]
-[ext_resource type="Texture2D" uid="uid://deswa0pgeco4d" path="res://character/run ninja/ninja-1126.png" id="dec_1126"]
 [ext_resource type="Texture2D" uid="uid://d0ye3a37qh8ay" path="res://character/run ninja/ninja-1127.png" id="dec_1127"]
-[ext_resource type="Texture2D" uid="uid://cqe5ijb7dbf0r" path="res://character/run ninja/ninja-1128.png" id="dec_1128"]
-[ext_resource type="Texture2D" uid="uid://dox5hxleqsnj6" path="res://character/run ninja/ninja-1129.png" id="dec_1129"]
 [ext_resource type="Texture2D" uid="uid://45xpcjwppkr6" path="res://character/run ninja/ninja-1130.png" id="dec_1130"]
-[ext_resource type="Texture2D" uid="uid://bxyhxdrl48dku" path="res://character/run ninja/ninja-1131.png" id="dec_1131"]
-[ext_resource type="Texture2D" uid="uid://rdtc17i40w08" path="res://character/run ninja/ninja-1132.png" id="dec_1132"]
 [ext_resource type="Texture2D" uid="uid://ciy8k235kgi3k" path="res://character/run ninja/ninja-1133.png" id="dec_1133"]
-[ext_resource type="Texture2D" uid="uid://ckew4mgsyinc1" path="res://character/run ninja/ninja-1134.png" id="dec_1134"]
-[ext_resource type="Texture2D" uid="uid://dn66k1ech8ena" path="res://character/run ninja/ninja-1135.png" id="dec_1135"]
 [ext_resource type="Texture2D" uid="uid://b55kglvddmuh5" path="res://character/run ninja/ninja-1136.png" id="dec_1136"]
-[ext_resource type="Texture2D" uid="uid://bjh5mc54epf6n" path="res://character/run ninja/ninja-1137.png" id="dec_1137"]
-[ext_resource type="Texture2D" uid="uid://byc3sh1b0t6yy" path="res://character/run ninja/ninja-1138.png" id="dec_1138"]
 [ext_resource type="Texture2D" uid="uid://dbhexmq74q8ab" path="res://character/run ninja/ninja-1139.png" id="dec_1139"]
-[ext_resource type="Texture2D" uid="uid://cjlb3aqr81wtw" path="res://character/run ninja/ninja-1140.png" id="dec_1140"]
-[ext_resource type="Texture2D" uid="uid://5krhmdoghxtm" path="res://character/run ninja/ninja-1141.png" id="dec_1141"]
 [ext_resource type="Texture2D" uid="uid://c04o6xvikjgm4" path="res://character/run ninja/ninja-1142.png" id="dec_1142"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_i7o34"]
@@ -282,130 +248,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("dec_1100")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1101")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1102")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1103")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1104")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1105")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1106")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1107")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1108")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1109")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1110")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1111")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1112")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1113")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1114")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1115")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1116")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1117")
-}, {
-"duration": 1.0,
 "texture": ExtResource("dec_1118")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1119")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1120")
 }, {
 "duration": 1.0,
 "texture": ExtResource("dec_1121")
 }, {
 "duration": 1.0,
-"texture": ExtResource("dec_1122")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1123")
-}, {
-"duration": 1.0,
 "texture": ExtResource("dec_1124")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1125")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1126")
 }, {
 "duration": 1.0,
 "texture": ExtResource("dec_1127")
 }, {
 "duration": 1.0,
-"texture": ExtResource("dec_1128")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1129")
-}, {
-"duration": 1.0,
 "texture": ExtResource("dec_1130")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1131")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1132")
 }, {
 "duration": 1.0,
 "texture": ExtResource("dec_1133")
 }, {
 "duration": 1.0,
-"texture": ExtResource("dec_1134")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1135")
-}, {
-"duration": 1.0,
 "texture": ExtResource("dec_1136")
 }, {
 "duration": 1.0,
-"texture": ExtResource("dec_1137")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1138")
-}, {
-"duration": 1.0,
 "texture": ExtResource("dec_1139")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1140")
-}, {
-"duration": 1.0,
-"texture": ExtResource("dec_1141")
 }, {
 "duration": 1.0,
 "texture": ExtResource("dec_1142")
